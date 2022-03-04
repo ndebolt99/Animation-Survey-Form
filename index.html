@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Animation Survey Project</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+<header>
+  <h1 id="title">Animation Course Survey 2022</h1>
+  <p id="description" >Thank you for taking the time to fill out this survey about your experience in animation.</p>
+</header>
+<div id="total-form">
+<form id="survey-form">
+ <div class="form-group"> 
+  <label id="name-label" for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      class="form-control"
+      placeholder="Enter your full name here"
+      required
+      />
+  </div>
+  <div class="form-group">
+  <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+  </div>
+  <div class="form-group">
+  <label id="number-label" for="grade">Grade Level</label>
+      <input
+        type="number"
+        name="grade"
+        id="number"
+        class="form-control"
+        min="9"
+        max="99"
+        placeholder="Grade level"
+      />
+  </div>
+  
+  <div class="form-group">
+    <p>Which option best describes your current role?</p>
+    <select id="dropdown" name="role" class="form-control" required>
+      <option disabled selected value>Select current course</option>
+      <option value="student">Animation I</option>
+      <option value="job">Animation II</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <p>Are you thinking about pursuing animation as a career?</p>
+    <label>
+      <input
+          name="YesNoMaybe"
+          value="Yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />Yes
+    </label>
+    <label>
+      <input
+          name="YesNoMaybe"
+          value="no"
+          type="radio"
+          class="input-radio"
+          />No
+    </label>
+    <label>
+      <input
+          name="YesNoMaybe"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+          />Maybe
+    </label>
+  </div>
+  <div class="form-group">
+    <p>Which parts of animation do you like?<span class="clue">(Check all that apply)</span></p>
+    <label>
+        <input
+          name="prefer"
+          value="script"
+          type="checkbox"
+          class="input-checkbox"
+        />Script writing and character development
+    </label>
+    <label>
+        <input
+          name="prefer"
+          value="Storyboarding"
+          type="checkbox"
+          class="input-checkbox"
+        />Storyboarding
+    </label>
+    <label>
+        <input
+          name="prefer"
+          value="rotoscoping"
+          type="checkbox"
+          class="input-checkbox"
+        />Rotoscoping
+    </label>
+    <label>
+        <input
+          name="prefer"
+          value="3D-modeling"
+          type="checkbox"
+          class="input-checkbox"
+        />3D modeling
+    </label>
+    <label>
+        <input
+          name="prefer"
+          value="texturing"
+          type="checkbox"
+          class="input-checkbox"
+        />Texturing
+    </label>
+    <label>
+        <input
+          name="prefer"
+          value="rigging"
+          type="checkbox"
+          class="input-checkbox"
+        />Rigging
+    </label>
+    <label>
+        <input
+          name="prefer"
+          value="animating"
+          type="checkbox"
+          class="input-checkbox"
+        />Animating
+    </label>
+    <label>
+        <input
+          name="prefer"
+          value="Lighting"
+          type="checkbox"
+          class="input-checkbox"
+        />Lighting
+    </label>
+    <label>
+        <input
+          name="prefer"
+          value="rendering-compositing"
+          type="checkbox"
+          class="input-checkbox"
+        />Rendering and compositing
+    </label>
+  </div>
+  <div class="form-group">
+     <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comments here..."
+      ></textarea>
+  </div>
+  <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+  </div>
+<form>
+
+  </div>
+<!-- partial -->
+  
+</body>
+</html>

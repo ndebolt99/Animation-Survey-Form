@@ -1,0 +1,93 @@
+/*------------fonts
+c
+font-family: 'Ubuntu', sans-serif;
+---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu:wght@300&display=swap');
+
+/*------------background image---------------*/
+body {
+  background-image: url(https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.container{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 2em auto .5em auto;
+}
+#description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 0px 30px;
+}
+/*------------the form---------------*/
+#total-form{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  padding: 1.5rem 1.625rem;
+  border-radius: 0.25rem;
+  background-color: rgba(38, 42, 67, 0.9);
+  font-family: 'Ubuntu', sans-serif;
+  width: 40em;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem auto;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin: 10px 0px 30px;
+}
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  resize: vertical;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.8rem;
+  color: silver;
+}
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  color: white;
+  background: green;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 30px 0px 20px 4px;
+}
